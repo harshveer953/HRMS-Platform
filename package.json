@@ -1,0 +1,14 @@
+{
+  "name": "hrms-platform",
+  "version": "1.0.0",
+  "description": "Multi-tenant HRMS Platform",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "start": "node backend/src/server.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
