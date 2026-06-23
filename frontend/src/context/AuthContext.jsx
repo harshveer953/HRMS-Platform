@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect, useContext } from 'react';
 
 const AuthContext = createContext(null);
 
-export const API_BASE = 'http://localhost:5001/api';
+export const API_BASE = 'https://hrms-platform-0xs9.onrender.com';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
