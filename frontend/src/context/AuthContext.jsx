@@ -2,7 +2,9 @@ import React, { createContext, useState, useEffect, useContext } from 'react';
 
 const AuthContext = createContext(null);
 
-export const API_BASE = 'https://hrms-platform-ie92.onrender.com';
+export const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:5001/api'
+  : 'https://hrms-platform-ie92.onrender.com/api';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);

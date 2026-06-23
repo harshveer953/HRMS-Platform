@@ -1,0 +1,161 @@
+[
+  {
+    "_id": "6a3a9c82b7950c9957dbb5d3",
+    "createdAt": "2026-06-23T14:47:30.650Z",
+    "updatedAt": "2026-06-23T14:47:30.799Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "employeeId": "EMP-001",
+    "email": "alice@acme.com",
+    "passwordHash": "$2a$10$VSnj0V.aBvOKwaVV/3YjceGmYaXV8UBT9ERK0TPn0omIZ0EzshKay",
+    "role": "HR/Admin",
+    "personal": {
+      "name": "Alice HR",
+      "dob": "",
+      "gender": "Other",
+      "photoUrl": "",
+      "maritalStatus": "Single",
+      "nationality": ""
+    },
+    "contact": {
+      "personalEmail": "alice@acme.com",
+      "officialEmail": "alice@acme.com",
+      "phone": "",
+      "currentAddress": "",
+      "permanentAddress": "",
+      "emergencyContact": {
+        "name": "",
+        "relation": "",
+        "phone": ""
+      }
+    },
+    "employment": {
+      "dateOfJoining": "2026-06-23",
+      "employmentType": "Full-time",
+      "department": "HR",
+      "designation": "HR Administrator",
+      "grade": "A",
+      "location": "Headquarters",
+      "reportingManagerId": "",
+      "shiftName": "General Shift",
+      "status": "Active"
+    },
+    "bank": {
+      "accountName": "",
+      "accountNumber": "",
+      "bankName": "",
+      "ifscCode": "",
+      "panNumber": "",
+      "aadhaarNumber": ""
+    },
+    "lockout": {
+      "failedAttempts": 0,
+      "lockedUntil": null
+    }
+  },
+  {
+    "_id": "6a3a9c82f75160bdccc3d6e2",
+    "createdAt": "2026-06-23T14:47:30.940Z",
+    "updatedAt": "2026-06-23T14:47:31.074Z",
+    "tenantId": "6a3a9c82d9aef1b85fd33dce",
+    "employeeId": "EMP-001",
+    "email": "charlie@beta.com",
+    "passwordHash": "$2a$10$tpHL8WsmfLyNpodHcIzmC.V6COhW59/q3tFED.BGGdhRGS7CUcYNu",
+    "role": "HR/Admin",
+    "personal": {
+      "name": "Charlie HR",
+      "dob": "",
+      "gender": "Other",
+      "photoUrl": "",
+      "maritalStatus": "Single",
+      "nationality": ""
+    },
+    "contact": {
+      "personalEmail": "charlie@beta.com",
+      "officialEmail": "charlie@beta.com",
+      "phone": "",
+      "currentAddress": "",
+      "permanentAddress": "",
+      "emergencyContact": {
+        "name": "",
+        "relation": "",
+        "phone": ""
+      }
+    },
+    "employment": {
+      "dateOfJoining": "2026-06-23",
+      "employmentType": "Full-time",
+      "department": "HR",
+      "designation": "HR Administrator",
+      "grade": "A",
+      "location": "Headquarters",
+      "reportingManagerId": "",
+      "shiftName": "General Shift",
+      "status": "Active"
+    },
+    "bank": {
+      "accountName": "",
+      "accountNumber": "",
+      "bankName": "",
+      "ifscCode": "",
+      "panNumber": "",
+      "aadhaarNumber": ""
+    },
+    "lockout": {
+      "failedAttempts": 0,
+      "lockedUntil": null
+    }
+  },
+  {
+    "_id": "6a3a9c83bfc85bc7ddd41bea",
+    "createdAt": "2026-06-23T14:47:31.215Z",
+    "updatedAt": "2026-06-23T14:47:31.896Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "employeeId": "EMP-002",
+    "email": "bob@acme.com",
+    "passwordHash": "$2a$10$6tiK6tAoWOpOVb8JsR2pGetJ/ZENyBTgRpMDvPsNUWOYD9udbf.M2",
+    "role": "Employee",
+    "personal": {
+      "name": "Bob Engineer",
+      "dob": "",
+      "gender": "Male",
+      "photoUrl": "",
+      "maritalStatus": "Single",
+      "nationality": ""
+    },
+    "contact": {
+      "personalEmail": "bob@acme.com",
+      "officialEmail": "bob@acme.com",
+      "phone": "",
+      "currentAddress": "",
+      "permanentAddress": "",
+      "emergencyContact": {
+        "name": "",
+        "relation": "",
+        "phone": ""
+      }
+    },
+    "employment": {
+      "dateOfJoining": "2026-06-01",
+      "employmentType": "Full-time",
+      "department": "Engineering",
+      "designation": "Staff Dev",
+      "grade": "A",
+      "location": "Remote",
+      "reportingManagerId": "6a3a9c82b7950c9957dbb5d3",
+      "shiftName": "General Shift",
+      "status": "Active"
+    },
+    "bank": {
+      "accountName": "",
+      "accountNumber": "",
+      "bankName": "",
+      "ifscCode": "",
+      "panNumber": "",
+      "aadhaarNumber": ""
+    },
+    "lockout": {
+      "failedAttempts": 0,
+      "lockedUntil": "2026-06-23T15:02:31.896Z"
+    }
+  }
+]

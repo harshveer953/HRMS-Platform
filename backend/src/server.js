@@ -33,6 +33,14 @@ app.use('/api/dashboard', dashboardRouter);
 app.use('/api/notifications', notificationsRouter);
 app.use('/api/holidays', holidaysRouter);
 
+// Root and API status routes
+app.get('/', (req, res) => {
+  res.json({ message: 'HRMS API Backend Server is running successfully!' });
+});
+app.get('/api', (req, res) => {
+  res.json({ message: 'HRMS API Backend Server is running successfully!' });
+});
+
 // Global Error Handler
 app.use((err, req, res, next) => {
   console.error('Unhandled server error:', err);

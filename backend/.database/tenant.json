@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "6a3a9c82aaa05561bb407dc4",
+    "createdAt": "2026-06-23T14:47:30.506Z",
+    "updatedAt": "2026-06-23T14:47:30.506Z",
+    "name": "Acme Corp",
+    "domain": "acme.com",
+    "mfaEnabled": false,
+    "passwordPolicy": {
+      "minLength": 8,
+      "requireSpecial": false,
+      "requireNumbers": false
+    },
+    "settings": {
+      "departments": [
+        "Engineering",
+        "HR",
+        "Product",
+        "Sales",
+        "Marketing",
+        "Finance"
+      ],
+      "locations": [
+        "Headquarters",
+        "Remote"
+      ],
+      "shifts": [
+        {
+          "name": "General Shift",
+          "start": "09:00",
+          "end": "18:00",
+          "gracePeriod": 15
+        }
+      ]
+    }
+  },
+  {
+    "_id": "6a3a9c82d9aef1b85fd33dce",
+    "createdAt": "2026-06-23T14:47:30.811Z",
+    "updatedAt": "2026-06-23T14:47:30.811Z",
+    "name": "Beta Inc",
+    "domain": "beta.com",
+    "mfaEnabled": false,
+    "passwordPolicy": {
+      "minLength": 8,
+      "requireSpecial": false,
+      "requireNumbers": false
+    },
+    "settings": {
+      "departments": [
+        "Engineering",
+        "HR",
+        "Product",
+        "Sales",
+        "Marketing",
+        "Finance"
+      ],
+      "locations": [
+        "Headquarters",
+        "Remote"
+      ],
+      "shifts": [
+        {
+          "name": "General Shift",
+          "start": "09:00",
+          "end": "18:00",
+          "gracePeriod": 15
+        }
+      ]
+    }
+  }
+]

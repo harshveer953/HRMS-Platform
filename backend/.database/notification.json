@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "6a3a9c837c8c7f67c779d364",
+    "createdAt": "2026-06-23T14:47:31.216Z",
+    "updatedAt": "2026-06-23T14:47:31.216Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "employeeId": "6a3a9c83bfc85bc7ddd41bea",
+    "title": "Welcome to the Team!",
+    "message": "Your profile has been created successfully. Complete your onboarding info in settings.",
+    "type": "INFO",
+    "isRead": false
+  }
+]

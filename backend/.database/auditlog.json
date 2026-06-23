@@ -1,0 +1,143 @@
+[
+  {
+    "_id": "6a3a9c8285fd6b3bf21c4fe3",
+    "createdAt": "2026-06-23T14:47:30.651Z",
+    "updatedAt": "2026-06-23T14:47:30.651Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": "6a3a9c82b7950c9957dbb5d3",
+    "userEmail": "alice@acme.com",
+    "action": "TENANT_REGISTRATION",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "companyName": "Acme Corp",
+      "domain": "acme.com",
+      "adminEmail": "alice@acme.com"
+    }
+  },
+  {
+    "_id": "6a3a9c82ad212af42c779b55",
+    "createdAt": "2026-06-23T14:47:30.805Z",
+    "updatedAt": "2026-06-23T14:47:30.805Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": "6a3a9c82b7950c9957dbb5d3",
+    "userEmail": "alice@acme.com",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "name": "Alice HR"
+    }
+  },
+  {
+    "_id": "6a3a9c82df004e7bb0918bed",
+    "createdAt": "2026-06-23T14:47:30.941Z",
+    "updatedAt": "2026-06-23T14:47:30.941Z",
+    "tenantId": "6a3a9c82d9aef1b85fd33dce",
+    "userId": "6a3a9c82f75160bdccc3d6e2",
+    "userEmail": "charlie@beta.com",
+    "action": "TENANT_REGISTRATION",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "companyName": "Beta Inc",
+      "domain": "beta.com",
+      "adminEmail": "charlie@beta.com"
+    }
+  },
+  {
+    "_id": "6a3a9c83c02ccb7446e655f1",
+    "createdAt": "2026-06-23T14:47:31.077Z",
+    "updatedAt": "2026-06-23T14:47:31.077Z",
+    "tenantId": "6a3a9c82d9aef1b85fd33dce",
+    "userId": "6a3a9c82f75160bdccc3d6e2",
+    "userEmail": "charlie@beta.com",
+    "action": "LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "name": "Charlie HR"
+    }
+  },
+  {
+    "_id": "6a3a9c83bd9e763e2195ff25",
+    "createdAt": "2026-06-23T14:47:31.216Z",
+    "updatedAt": "2026-06-23T14:47:31.216Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": "6a3a9c82b7950c9957dbb5d3",
+    "userEmail": "alice@acme.com",
+    "action": "EMPLOYEE_CREATE",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "employeeId": "EMP-002",
+      "email": "bob@acme.com",
+      "name": "Bob Engineer"
+    }
+  },
+  {
+    "_id": "6a3a9c8345b438502eaf91e2",
+    "createdAt": "2026-06-23T14:47:31.363Z",
+    "updatedAt": "2026-06-23T14:47:31.363Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": null,
+    "userEmail": "System/Guest",
+    "action": "LOGIN_FAILURE",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "bob@acme.com",
+      "lockedOut": false
+    }
+  },
+  {
+    "_id": "6a3a9c83597b3076139d43fa",
+    "createdAt": "2026-06-23T14:47:31.496Z",
+    "updatedAt": "2026-06-23T14:47:31.496Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": null,
+    "userEmail": "System/Guest",
+    "action": "LOGIN_FAILURE",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "bob@acme.com",
+      "lockedOut": false
+    }
+  },
+  {
+    "_id": "6a3a9c83991e1aa6791ee718",
+    "createdAt": "2026-06-23T14:47:31.630Z",
+    "updatedAt": "2026-06-23T14:47:31.630Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": null,
+    "userEmail": "System/Guest",
+    "action": "LOGIN_FAILURE",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "bob@acme.com",
+      "lockedOut": false
+    }
+  },
+  {
+    "_id": "6a3a9c830b4ac1c10a2f4e63",
+    "createdAt": "2026-06-23T14:47:31.762Z",
+    "updatedAt": "2026-06-23T14:47:31.762Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": null,
+    "userEmail": "System/Guest",
+    "action": "LOGIN_FAILURE",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "bob@acme.com",
+      "lockedOut": false
+    }
+  },
+  {
+    "_id": "6a3a9c8316bab1961133dc03",
+    "createdAt": "2026-06-23T14:47:31.897Z",
+    "updatedAt": "2026-06-23T14:47:31.897Z",
+    "tenantId": "6a3a9c82aaa05561bb407dc4",
+    "userId": null,
+    "userEmail": "System/Guest",
+    "action": "LOGIN_FAILURE",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "bob@acme.com",
+      "lockedOut": true
+    }
+  }
+]
